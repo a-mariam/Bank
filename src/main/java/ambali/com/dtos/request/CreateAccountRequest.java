@@ -7,6 +7,7 @@ public class CreateAccountRequest {
     private String phoneNumber;
     private String type;
     private String pin;
+    private String email;
 
     public String getFirstName() {
         return firstName;
@@ -58,5 +59,13 @@ public class CreateAccountRequest {
             this.pin = pin;
         }
 
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
