@@ -1,2 +1,10 @@
-package ambali.com.UserController;public class UserControlerTest {
+package ambali.com.UserController;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+public class UserControlerTest {
+
+
 }

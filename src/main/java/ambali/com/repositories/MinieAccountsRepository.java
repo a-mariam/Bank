@@ -7,4 +7,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface MinieAccountsRepository extends JpaRepository<Account, String> {
   Account findByPhoneNumber(String phoneNumber);
+  Account findByAccountNumber(String accountNumber);
 }

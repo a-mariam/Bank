@@ -1,8 +1,8 @@
 package ambali.com.Exceptions;
 
-public class UnknownAccountTypeException extends IllegalArgumentException{
+public class UnknownAccountTypeException extends BankTransactionException{
     public UnknownAccountTypeException(String messages){
-        super(messages);
+        super( messages);
     }
 
 }

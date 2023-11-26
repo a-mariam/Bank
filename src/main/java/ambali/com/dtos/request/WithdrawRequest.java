@@ -1,4 +1,4 @@
-package ambali.com.dtos;
+package ambali.com.dtos.request;
 
 import lombok.Getter;
 import lombok.Setter;

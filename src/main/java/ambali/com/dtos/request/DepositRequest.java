@@ -1,2 +1,15 @@
-package ambali.com.dtos.request;public class DepositRequest {
+package ambali.com.dtos.request;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+public class DepositRequest {
+    private String accountNumber;
+    private String amount;
 }

@@ -1,7 +1,7 @@
 package ambali.com.Exceptions;
 
-public class IncorrectPinException extends Throwable {
-    public IncorrectPinException(String messages) {
+public class IncorrectInputException extends BankTransactionException {
+    public IncorrectInputException(String messages) {
         super(messages);
     }
 }

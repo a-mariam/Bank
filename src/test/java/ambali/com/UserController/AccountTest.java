@@ -1,4 +1,4 @@
-package ambali.com.model;
+package ambali.com.UserController;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

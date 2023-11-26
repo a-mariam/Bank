@@ -1,2 +1,5 @@
-package ambali.com.dtos.response;public class DepositResponse {
+package ambali.com.dtos.response;
+
+public class DepositResponse {
+
 }

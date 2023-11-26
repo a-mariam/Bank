@@ -1,2 +1,13 @@
-package ambali.com;public class TestConfig {
+package ambali.com;
+
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan(basePackages = "ambali.com.**" )
+public class TestConfig {
+
 }
+

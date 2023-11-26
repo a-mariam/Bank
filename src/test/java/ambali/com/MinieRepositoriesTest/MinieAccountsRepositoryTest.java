@@ -19,4 +19,8 @@ public class MinieAccountsRepositoryTest {
         assertEquals(1L, minieAccountsRepository.count());
 
     }
+    @Test
+    public void testFindBy(){
+
+    }
 }
